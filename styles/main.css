@@ -71,7 +71,7 @@ img {
 }
 
 .preview {
-  background: url("../../img/bg-preview.svg") center no-repeat;
+  background: url("/img/bg-preview.png") center no-repeat;
   background-size: cover;
   background-color: #1968B1;
   height: 100vh;
@@ -431,8 +431,12 @@ header {
 }
 
 .order-section {
-  background: url("../../img/surfer.svg") center no-repeat;
+  background: url("/img/surfer.png") center no-repeat;
   background-size: cover;
+}
+
+.order__title {
+  margin-bottom: 61px;
 }
 
 .form {
@@ -522,6 +526,7 @@ header {
   position: relative;
   border-radius: 50%;
   background: #fff;
+  margin-right: 10px;
 }
 .radio__visible:before {
   content: "";
@@ -535,6 +540,10 @@ header {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.radio__title {
+  margin-right: 9px;
 }
 
 .fixed-menu {
